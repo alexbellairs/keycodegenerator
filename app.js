@@ -9,10 +9,12 @@ window.addEventListener("keydown", (a) => {
   const key = document.getElementById("key");
   const which = document.getElementById("which");
   const log = document.getElementById("heading");
+  const num = document.getElementById("num");
 
   log.textContent = `${a.key.toUpperCase()} was pressed!`;
 
   code.textContent = a.code;
   key.textContent = a.key;
   which.textContent = a.which;
+  num.textContent = `${a.which}`;
 });

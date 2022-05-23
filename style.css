@@ -40,7 +40,12 @@ body {
   list-style: none;
 }
 #heading {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+}
+#num {
+  font-size: 150px;
+  padding-bottom: 10px;
+  color: gold;
 }
 .houtput {
   box-sizing: border-box;
